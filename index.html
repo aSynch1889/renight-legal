@@ -7,21 +7,47 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <a class="brand" href="./">Renight</a>
-    <nav>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-    </nav>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="./">
+        <span class="mark" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M11.2 2.4A6.2 6.2 0 1 0 13.6 11 5.1 5.1 0 0 1 11.2 2.4Z" fill="#59D9F2"/>
+          </svg>
+        </span>
+        Renight
+      </a>
+      <nav>
+        <a href="./" class="active">Legal</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
   </header>
+
   <main>
-    <h1>Legal</h1>
-    <p class="meta">Public policies for the Renight iOS app. These pages are the documents linked from Settings and the paywall.</p>
+    <section class="hero">
+      <div class="kicker">Renight · iOS</div>
+      <h1>Policies for a quieter night.</h1>
+      <p class="meta">These are the documents linked from Settings and the paywall. Short, specific, and written to match what the app actually does.</p>
+    </section>
     <div class="links">
-      <a href="privacy.html">Privacy Policy<span>On-device data, microphone calibration, purchases</span></a>
-      <a href="terms.html">Terms of Use<span>Wellness disclaimer and Apple subscription terms</span></a>
+      <a class="tile" href="privacy.html">
+        <strong>Privacy Policy</strong>
+        <span>On-device logs, microphone calibration, and Apple billing. No ads SDK.</span>
+        <em>Read privacy →</em>
+      </a>
+      <a class="tile" href="terms.html">
+        <strong>Terms of Use</strong>
+        <span>Wellness disclaimer, App Store license, and auto-renewable subscriptions.</span>
+        <em>Read terms →</em>
+      </a>
     </div>
   </main>
-  <footer>© 2026 Renight · com.evolly.renight</footer>
+
+  <footer class="site-foot">
+    <span>© 2026 Renight</span>
+    <span>com.evolly.renight</span>
+  </footer>
 </body>
 </html>
