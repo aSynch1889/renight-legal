@@ -1,18 +1,18 @@
 :root {
-  --bg-1: #070914;
-  --bg-2: #140f29;
-  --bg-3: #08070f;
-  --glass: rgba(23, 28, 46, 0.62);
-  --glass-strong: rgba(18, 22, 38, 0.82);
-  --text: #f5f7fc;
-  --muted: rgba(245, 247, 252, 0.62);
-  --faint: rgba(245, 247, 252, 0.42);
-  --accent: #59d9f2;
-  --accent-deep: #33b8d4;
-  --violet: #ad73fa;
-  --gold: #fac759;
-  --stroke: rgba(255, 255, 255, 0.14);
-  --shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+  --bg-1: #0c0b10;
+  --bg-2: #15121e;
+  --bg-3: #09080d;
+  --glass: rgba(27, 25, 36, 0.72);
+  --glass-strong: rgba(20, 18, 28, 0.88);
+  --text: #f7f3eb;
+  --muted: rgba(247, 243, 235, 0.68);
+  --faint: rgba(247, 243, 235, 0.45);
+  --accent: #e6c285;
+  --accent-deep: #c99d55;
+  --violet: #b09ed8;
+  --gold: #edc98c;
+  --stroke: rgba(247, 243, 235, 0.13);
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.38);
   --radius: 22px;
   --max: 760px;
 }
@@ -30,9 +30,9 @@ html, body {
 
 body {
   background:
-    radial-gradient(900px 520px at 12% -10%, rgba(89, 217, 242, 0.16), transparent 55%),
-    radial-gradient(720px 480px at 110% 8%, rgba(173, 115, 250, 0.18), transparent 50%),
-    radial-gradient(700px 500px at 50% 120%, rgba(115, 140, 250, 0.12), transparent 55%),
+    radial-gradient(900px 520px at 12% -10%, rgba(230, 194, 133, 0.15), transparent 55%),
+    radial-gradient(720px 480px at 110% 8%, rgba(176, 158, 216, 0.16), transparent 50%),
+    radial-gradient(700px 500px at 50% 120%, rgba(158, 174, 209, 0.12), transparent 55%),
     linear-gradient(160deg, var(--bg-1), var(--bg-2) 48%, var(--bg-3));
   background-attachment: fixed;
 }
@@ -78,9 +78,9 @@ body {
   display: grid;
   place-items: center;
   border-radius: 9px;
-  background: linear-gradient(145deg, rgba(89, 217, 242, 0.25), rgba(173, 115, 250, 0.2));
-  border: 1px solid rgba(89, 217, 242, 0.35);
-  box-shadow: 0 0 16px rgba(89, 217, 242, 0.22);
+  background: linear-gradient(145deg, rgba(230, 194, 133, 0.24), rgba(176, 158, 216, 0.18));
+  border: 1px solid rgba(230, 194, 133, 0.38);
+  box-shadow: 0 0 16px rgba(230, 194, 133, 0.2);
 }
 
 .mark svg { display: block; }
@@ -105,8 +105,8 @@ nav a {
 
 nav a:hover { color: var(--text); }
 nav a.active {
-  color: #081016;
-  background: linear-gradient(180deg, #7ae7f8, var(--accent-deep));
+  color: #141118;
+  background: linear-gradient(180deg, #edc98c, var(--accent-deep));
 }
 
 main {
@@ -205,7 +205,7 @@ p {
 
 .tile:hover {
   transform: translateY(-2px);
-  border-color: rgba(89, 217, 242, 0.45);
+  border-color: rgba(230, 194, 133, 0.45);
 }
 
 .tile strong {
